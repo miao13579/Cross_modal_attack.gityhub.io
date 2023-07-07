@@ -1,40 +1,75 @@
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-
-<div class="container" style="max-width:1500px;">
-
-  <title>Cross-modal and Cross-medium Adversarial Attack for Audio</title>
-
-  </head>
-  <h2 style="text-align: center;">Cross-modal and Cross-medium Adversarial Attack for Audio</h2>
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"></head>
 
 
-
-  <body style="font-family: Helvetica">
-    <table class="mytable2">
+<body style="font-family: Helvetica">
+<h1 style="text-align: center">Cross-modal and Cross-medium Adversarial Attack for Audio</h1>
+    <br> </br>
+<table class="mytable2">
       <thead>
         <tr>
-          <th align="middle">AudioMNIST</th>
+          <th align="middle" style="text-align: center">AudioMnist</th>
         </tr>
       </thead>
     </table>
-
-    <br> </br>
     <table class="mytable">
       <thead>
         <tr>
-          <th align="middle">Original</th>
-          <th align="middle">Attack</th>
+          <th align="middle">modal </th>
+          <th align="middle">Original 1</th>
+          <th align="middle">Our Method</th>
+            <th align="middle">HSJA</th>
+            <th align="middle">QEBA</th>
+          <th align="middle">Original 2</th>
+          <th align="middle">Our Method</th>
+            <th align="middle">HSJA</th>
+            <th align="middle">QEBA</th>
         </tr>
       </thead>
 
       <tbody>
         <tr>
-          <td><audio controls style="width: 250px; height: 50px"><source src="demo/origin1_label6_AudioMNIST.wav" type="audio/wav"></audio></td>
-          <td><audio controls style="width: 250px; height: 50px"><source src="demo/attack1_label5_AudioMNIST.wav" type="audio/wav"></audio></td>
+          <td><h4 style="width: 240px; height: 50px; text-align:center; line-height: 50px"> Audio</h4></td>
+          <td><audio controls style="width: 240px; height: 50px" ><source src="audio/origin/AudioMnist/AudioMNIST1.wav" type="audio/wav"></audio></td>
+          <td><audio controls style="width: 240px; height: 50px"><source src="audio/mine/AudioMNIST1.wav" type="audio/wav"></audio></td>
+            <td><audio controls style="width: 240px; height: 50px"><source src="audio/HSJA/AudioMNIST1.wav" type="audio/wav"></audio></td>
+            <td><audio controls style="width: 240px; height: 50px"><source src="audio/QEBA/AudioMNIST1.wav" type="audio/wav"></audio></td>
+          <td><audio controls style="width: 240px; height: 50px" ><source src="audio/origin/AudioMnist/AudioMNIST2.wav" type="audio/wav"></audio></td>
+            <td><audio controls style="width: 240px; height: 50px"><source src="audio/mine/AudioMNIST2.wav" type="audio/wav"></audio></td>
+            <td><audio controls style="width: 240px; height: 50px"><source src="audio/HSJA/AudioMNIST2.wav" type="audio/wav"></audio></td>
+            <td><audio controls style="width: 240px; height: 50px"><source src="audio/QEBA/AudioMNIST2.wav" type="audio/wav"></audio></td>
         </tr>
         <tr>
-          <td><audio controls style="width: 250px; height: 50px"><source src="demo/origin2_label2_AudioMNIST.wav" type="audio/wav"></audio></td>
-          <td><audio controls style="width: 250px; height: 50px"><source src="demo/attack2_label5_AudioMNIST.wav" type="audio/wav"></audio></td>
+          <td><h4 style="width: 240px; height: 50px; text-align:center; line-height: 50px">Spectrogram</h4></td>
+          <td><img style=" width: 240px; height: 180px" src="imgs/origin/spec/AudioMNIST1.png" type="img/png"></td>
+          <td><img style=" width: 240px; height: 180px" src="imgs/mine/spec/AudioMNIST1.png" type="img/png"></td>
+            <td><img style=" width: 240px; height: 180px" src="imgs/HSJA/spec/AudioMNIST1.png" type="img/png"></td>
+            <td><img style=" width: 240px; height: 180px" src="imgs/QEBA/spec/AudioMNIST1.png" type="img/png"></td>
+            <td><img style=" width: 240px; height: 180px" src="imgs/origin/spec/AudioMNIST2.png" type="img/png"></td>
+            <td><img style=" width: 240px; height: 180px" src="imgs/mine/spec/AudioMNIST2.png" type="img/png"></td>
+            <td><img style=" width: 240px; height: 180px" src="imgs/HSJA/spec/AudioMNIST2.png" type="img/png"></td>
+            <td><img style=" width: 240px; height: 180px" src="imgs/QEBA/spec/AudioMNIST2.png" type="img/png"></td>
+        </tr>
+        <tr>
+          <td><h4 style="width: 240px; height: 50px; text-align:center; line-height: 50px">Mel-Spectrogram</h4></td>
+          <td><img style=" width: 240px; height: 180px" src="imgs/origin/mel/AudioMNIST1.png" type="img/png"></td>
+          <td><img style=" width: 240px; height: 180px" src="imgs/mine/mel/AudioMNIST1.png" type="img/png"></td>
+            <td><img style=" width: 240px; height: 180px" src="imgs/HSJA/mel/AudioMNIST1.png" type="img/png"></td>
+            <td><img style=" width: 240px; height: 180px" src="imgs/QEBA/mel/AudioMNIST1.png" type="img/png"></td>
+            <td><img style=" width: 240px; height: 180px" src="imgs/origin/mel/AudioMNIST2.png" type="img/png"></td>
+            <td><img style=" width: 240px; height: 180px" src="imgs/mine/mel/AudioMNIST2.png" type="img/png"></td>
+            <td><img style=" width: 240px; height: 180px" src="imgs/HSJA/mel/AudioMNIST2.png" type="img/png"></td>
+            <td><img style=" width: 240px; height: 180px" src="imgs/QEBA/mel/AudioMNIST2.png" type="img/png"></td>
+        </tr>
+      <tr>
+          <td><h4 style="width: 240px; height: 50px; text-align:center; line-height: 50px">Lofar-Spectrogram</h4></td>
+          <td><img style=" width: 240px; height: 180px" src="imgs/origin/lofar/AudioMNIST1.png" type="img/png"></td>
+          <td><img style=" width: 240px; height: 180px" src="imgs/mine/lofar/AudioMNIST1.png" type="img/png"></td>
+            <td><img style=" width: 240px; height: 180px" src="imgs/HSJA/lofar/AudioMNIST1.png" type="img/png"></td>
+            <td><img style=" width: 240px; height: 180px" src="imgs/QEBA/lofar/AudioMNIST1.png" type="img/png"></td>
+            <td><img style=" width: 240px; height: 180px" src="imgs/origin/lofar/AudioMNIST2.png" type="img/png"></td>
+            <td><img style=" width: 240px; height: 180px" src="imgs/mine/lofar/AudioMNIST2.png" type="img/png"></td>
+            <td><img style=" width: 240px; height: 180px" src="imgs/HSJA/lofar/AudioMNIST2.png" type="img/png"></td>
+            <td><img style=" width: 240px; height: 180px" src="imgs/QEBA/lofar/AudioMNIST2.png" type="img/png"></td>
         </tr>
 
       </tbody>
@@ -42,11 +77,10 @@
 
 
     <br> </br>
-
     <table class="mytable2">
       <thead>
         <tr>
-          <th align="middle">UrbanSound8k</th>
+          <th align="middle" style="text-align: center">ShipsEar</th>
         </tr>
       </thead>
     </table>
@@ -54,31 +88,74 @@
     <br> </br>
     <table class="mytable">
       <thead>
-          <tr>
-            <th align="middle">Original</th>
-            <th align="middle">Attack</th>
-          </tr>
+        <tr>
+          <th align="middle">modal </th>
+          <th align="middle">Original 1</th>
+          <th align="middle">Our Method</th>
+            <th align="middle">HSJA</th>
+            <th align="middle">QEBA</th>
+          <th align="middle">Original 2</th>
+          <th align="middle">Our Method</th>
+            <th align="middle">HSJA</th>
+            <th align="middle">QEBA</th>
+        </tr>
       </thead>
 
       <tbody>
         <tr>
-          <td><audio controls style="width: 250px; height: 50px"><source src="demo/origin1_label3_UrbanSound8k.wav" type="audio/wav"></audio></td>
-          <td><audio controls style="width: 250px; height: 50px"><source src="demo/attack1_label6_UrbanSound8k.wav" type="audio/wav"></audio></td>
+          <td><h4 style="width: 240px; height: 50px; text-align:center; line-height: 50px"> Audio</h4></td>
+          <td><audio controls style="width: 240px; height: 50px" ><source src="audio/origin/ShipEars/ShipsEar1.wav" type="audio/wav"></audio></td>
+          <td><audio controls style="width: 240px; height: 50px"><source src="audio/mine/ShipsEar1.wav" type="audio/wav"></audio></td>
+            <td><audio controls style="width: 240px; height: 50px"><source src="audio/HSJA/ShipsEar1.wav" type="audio/wav"></audio></td>
+            <td><audio controls style="width: 240px; height: 50px"><source src="audio/QEBA/ShipsEar1.wav" type="audio/wav"></audio></td>
+          <td><audio controls style="width: 240px; height: 50px" ><source src="audio/origin/ShipEars/ShipsEar2.wav" type="audio/wav"></audio></td>
+            <td><audio controls style="width: 240px; height: 50px"><source src="audio/mine/ShipsEar2.wav" type="audio/wav"></audio></td>
+            <td><audio controls style="width: 240px; height: 50px"><source src="audio/HSJA/ShipsEar2.wav" type="audio/wav"></audio></td>
+            <td><audio controls style="width: 240px; height: 50px"><source src="audio/QEBA/ShipsEar2.wav" type="audio/wav"></audio></td>
         </tr>
         <tr>
-          <td><audio controls style="width: 250px; height: 50px"><source src="demo/origin2_label7_UrbanSound8k.wav" type="audio/wav"></audio></td>
-          <td><audio controls style="width: 250px; height: 50px"><source src="demo/attack2_label0_UrbanSound8k.wav" type="audio/wav"></audio></td>
+          <td><h4 style="width: 240px; height: 50px; text-align:center; line-height: 50px">Spectrogram</h4></td>
+          <td><img style=" width: 240px; height: 180px" src="imgs/origin/spec/ShipsEar1.png" type="img/png"></td>
+          <td><img style=" width: 240px; height: 180px" src="imgs/mine/spec/ShipsEar1.png" type="img/png"></td>
+            <td><img style=" width: 240px; height: 180px" src="imgs/HSJA/spec/ShipsEar1.png" type="img/png"></td>
+            <td><img style=" width: 240px; height: 180px" src="imgs/QEBA/spec/ShipsEar1.png" type="img/png"></td>
+            <td><img style=" width: 240px; height: 180px" src="imgs/origin/spec/ShipsEar2.png" type="img/png"></td>
+            <td><img style=" width: 240px; height: 180px" src="imgs/mine/spec/ShipsEar2.png" type="img/png"></td>
+            <td><img style=" width: 240px; height: 180px" src="imgs/HSJA/spec/ShipsEar2.png" type="img/png"></td>
+            <td><img style=" width: 240px; height: 180px" src="imgs/QEBA/spec/ShipsEar2.png" type="img/png"></td>
+        </tr>
+        <tr>
+          <td><h4 style="width: 240px; height: 50px; text-align:center; line-height: 50px">Mel-Spectrogram</h4></td>
+          <td><img style=" width: 240px; height: 180px" src="imgs/origin/mel/ShipsEar1.png" type="img/png"></td>
+          <td><img style=" width: 240px; height: 180px" src="imgs/mine/mel/ShipsEar1.png" type="img/png"></td>
+            <td><img style=" width: 240px; height: 180px" src="imgs/HSJA/mel/ShipsEar1.png" type="img/png"></td>
+            <td><img style=" width: 240px; height: 180px" src="imgs/QEBA/mel/ShipsEar1.png" type="img/png"></td>
+            <td><img style=" width: 240px; height: 180px" src="imgs/origin/mel/ShipsEar2.png" type="img/png"></td>
+            <td><img style=" width: 240px; height: 180px" src="imgs/mine/mel/ShipsEar2.png" type="img/png"></td>
+            <td><img style=" width: 240px; height: 180px" src="imgs/HSJA/mel/ShipsEar2.png" type="img/png"></td>
+            <td><img style=" width: 240px; height: 180px" src="imgs/QEBA/mel/ShipsEar2.png" type="img/png"></td>
+        </tr>
+      <tr>
+          <td><h4 style="width: 240px; height: 50px; text-align:center; line-height: 50px">Lofar-Spectrogram</h4></td>
+          <td><img style=" width: 240px; height: 180px" src="imgs/origin/lofar/ShipsEar1.png" type="img/png"></td>
+          <td><img style=" width: 240px; height: 180px" src="imgs/mine/lofar/ShipsEar1.png" type="img/png"></td>
+            <td><img style=" width: 240px; height: 180px" src="imgs/HSJA/lofar/ShipsEar1.png" type="img/png"></td>
+            <td><img style=" width: 240px; height: 180px" src="imgs/QEBA/lofar/ShipsEar1.png" type="img/png"></td>
+            <td><img style=" width: 240px; height: 180px" src="imgs/origin/lofar/ShipsEar2.png" type="img/png"></td>
+            <td><img style=" width: 240px; height: 180px" src="imgs/mine/lofar/ShipsEar2.png" type="img/png"></td>
+            <td><img style=" width: 240px; height: 180px" src="imgs/HSJA/lofar/ShipsEar2.png" type="img/png"></td>
+            <td><img style=" width: 240px; height: 180px" src="imgs/QEBA/lofar/ShipsEar2.png" type="img/png"></td>
         </tr>
 
       </tbody>
     </table>
 
-    <br> </br>
 
+    <br> </br>
     <table class="mytable2">
       <thead>
         <tr>
-          <th align="middle">Whale</th>
+          <th align="middle" style="text-align: center">Commond</th>
         </tr>
       </thead>
     </table>
@@ -87,19 +164,217 @@
     <table class="mytable">
       <thead>
         <tr>
-          <th align="middle">Original</th>
-          <th align="middle">Attack</th>
+          <th align="middle">modal </th>
+          <th align="middle">Original 1</th>
+          <th align="middle">Our Method</th>
+            <th align="middle">HSJA</th>
+            <th align="middle">QEBA</th>
+          <th align="middle">Original 2</th>
+          <th align="middle">Our Method</th>
+            <th align="middle">HSJA</th>
+            <th align="middle">QEBA</th>
         </tr>
       </thead>
 
       <tbody>
         <tr>
-          <td><audio controls style="width: 250px; height: 50px"><source src="demo/origin1_label2_Whale.wav" type="audio/wav"></audio></td>
-          <td><audio controls style="width: 250px; height: 50px"><source src="demo/attack1_label5_Whale.wav" type="audio/wav"></audio></td>
+          <td><h4 style="width: 240px; height: 50px; text-align:center; line-height: 50px"> Audio</h4></td>
+          <td><audio controls style="width: 240px; height: 50px" ><source src="audio/origin/Commonds/Command1.wav" type="audio/wav"></audio></td>
+          <td><audio controls style="width: 240px; height: 50px"><source src="audio/mine/Command1.wav" type="audio/wav"></audio></td>
+            <td><audio controls style="width: 240px; height: 50px"><source src="audio/HSJA/Command1.wav" type="audio/wav"></audio></td>
+            <td><audio controls style="width: 240px; height: 50px"><source src="audio/QEBA/Command1.wav" type="audio/wav"></audio></td>
+          <td><audio controls style="width: 240px; height: 50px" ><source src="audio/origin/Commonds/Command2.wav" type="audio/wav"></audio></td>
+            <td><audio controls style="width: 240px; height: 50px"><source src="audio/mine/Command2.wav" type="audio/wav"></audio></td>
+            <td><audio controls style="width: 240px; height: 50px"><source src="audio/HSJA/Command2.wav" type="audio/wav"></audio></td>
+            <td><audio controls style="width: 240px; height: 50px"><source src="audio/QEBA/Command2.wav" type="audio/wav"></audio></td>
+        </tr>
+        <tr>
+          <td><h4 style="width: 240px; height: 50px; text-align:center; line-height: 50px">Spectrogram</h4></td>
+          <td><img style=" width: 240px; height: 180px" src="imgs/origin/spec/Command1.png" type="img/png"></td>
+          <td><img style=" width: 240px; height: 180px" src="imgs/mine/spec/Command1.png" type="img/png"></td>
+            <td><img style=" width: 240px; height: 180px" src="imgs/HSJA/spec/Command1.png" type="img/png"></td>
+            <td><img style=" width: 240px; height: 180px" src="imgs/QEBA/spec/Command1.png" type="img/png"></td>
+            <td><img style=" width: 240px; height: 180px" src="imgs/origin/spec/Command2.png" type="img/png"></td>
+            <td><img style=" width: 240px; height: 180px" src="imgs/mine/spec/Command2.png" type="img/png"></td>
+            <td><img style=" width: 240px; height: 180px" src="imgs/HSJA/spec/Command2.png" type="img/png"></td>
+            <td><img style=" width: 240px; height: 180px" src="imgs/QEBA/spec/Command2.png" type="img/png"></td>
+        </tr>
+        <tr>
+          <td><h4 style="width: 240px; height: 50px; text-align:center; line-height: 50px">Mel-Spectrogram</h4></td>
+          <td><img style=" width: 240px; height: 180px" src="imgs/origin/mel/Command1.png" type="img/png"></td>
+          <td><img style=" width: 240px; height: 180px" src="imgs/mine/mel/Command1.png" type="img/png"></td>
+            <td><img style=" width: 240px; height: 180px" src="imgs/HSJA/mel/Command1.png" type="img/png"></td>
+            <td><img style=" width: 240px; height: 180px" src="imgs/QEBA/mel/Command1.png" type="img/png"></td>
+            <td><img style=" width: 240px; height: 180px" src="imgs/origin/mel/Command2.png" type="img/png"></td>
+            <td><img style=" width: 240px; height: 180px" src="imgs/mine/mel/Command2.png" type="img/png"></td>
+            <td><img style=" width: 240px; height: 180px" src="imgs/HSJA/mel/Command2.png" type="img/png"></td>
+            <td><img style=" width: 240px; height: 180px" src="imgs/QEBA/mel/Command2.png" type="img/png"></td>
+        </tr>
+      <tr>
+          <td><h4 style="width: 240px; height: 50px; text-align:center; line-height: 50px">Lofar-Spectrogram</h4></td>
+          <td><img style=" width: 240px; height: 180px" src="imgs/origin/lofar/Command1.png" type="img/png"></td>
+          <td><img style=" width: 240px; height: 180px" src="imgs/mine/lofar/Command1.png" type="img/png"></td>
+            <td><img style=" width: 240px; height: 180px" src="imgs/HSJA/lofar/Command1.png" type="img/png"></td>
+            <td><img style=" width: 240px; height: 180px" src="imgs/QEBA/lofar/Command1.png" type="img/png"></td>
+            <td><img style=" width: 240px; height: 180px" src="imgs/origin/lofar/Command2.png" type="img/png"></td>
+            <td><img style=" width: 240px; height: 180px" src="imgs/mine/lofar/Command2.png" type="img/png"></td>
+            <td><img style=" width: 240px; height: 180px" src="imgs/HSJA/lofar/Command2.png" type="img/png"></td>
+            <td><img style=" width: 240px; height: 180px" src="imgs/QEBA/lofar/Command2.png" type="img/png"></td>
         </tr>
 
-      <tbody>
+      </tbody>
     </table>
+
+
+    <br> </br>
+  <table class="mytable2">
+      <thead>
+        <tr>
+          <th align="middle" style="text-align: center">UrbanSound8k</th>
+        </tr>
+      </thead>
+    </table>
+
+    <br> </br>
+    <table class="mytable">
+      <thead>
+        <tr>
+          <th align="middle">modal </th>
+          <th align="middle">Original 1</th>
+          <th align="middle">Our Method</th>
+            <th align="middle">HSJA</th>
+            <th align="middle">QEBA</th>
+          <th align="middle">Original 2</th>
+          <th align="middle">Our Method</th>
+            <th align="middle">HSJA</th>
+            <th align="middle">QEBA</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td><h4 style="width: 240px; height: 50px; text-align:center; line-height: 50px"> Audio</h4></td>
+          <td><audio controls style="width: 240px; height: 50px" ><source src="audio/origin/UrbanSound8k/UrbanSound8k1.wav" type="audio/wav"></audio></td>
+          <td><audio controls style="width: 240px; height: 50px"><source src="audio/mine/UrbanSound8k1.wav" type="audio/wav"></audio></td>
+            <td><audio controls style="width: 240px; height: 50px"><source src="audio/HSJA/UrbanSound8k1.wav" type="audio/wav"></audio></td>
+            <td><audio controls style="width: 240px; height: 50px"><source src="audio/QEBA/UrbanSound8k1.wav" type="audio/wav"></audio></td>
+          <td><audio controls style="width: 240px; height: 50px" ><source src="audio/origin/UrbanSound8k/UrbanSound8k2.wav" type="audio/wav"></audio></td>
+            <td><audio controls style="width: 240px; height: 50px"><source src="audio/mine/UrbanSound8k2.wav" type="audio/wav"></audio></td>
+            <td><audio controls style="width: 240px; height: 50px"><source src="audio/HSJA/UrbanSound8k2.wav" type="audio/wav"></audio></td>
+            <td><audio controls style="width: 240px; height: 50px"><source src="audio/QEBA/UrbanSound8k2.wav" type="audio/wav"></audio></td>
+        </tr>
+        <tr>
+          <td><h4 style="width: 240px; height: 50px; text-align:center; line-height: 50px">Spectrogram</h4></td>
+          <td><img style=" width: 240px; height: 180px" src="imgs/origin/spec/UrbanSound8k1.png" type="img/png"></td>
+          <td><img style=" width: 240px; height: 180px" src="imgs/mine/spec/UrbanSound8k1.png" type="img/png"></td>
+            <td><img style=" width: 240px; height: 180px" src="imgs/HSJA/spec/UrbanSound8k1.png" type="img/png"></td>
+            <td><img style=" width: 240px; height: 180px" src="imgs/QEBA/spec/UrbanSound8k1.png" type="img/png"></td>
+            <td><img style=" width: 240px; height: 180px" src="imgs/origin/spec/UrbanSound8k2.png" type="img/png"></td>
+            <td><img style=" width: 240px; height: 180px" src="imgs/mine/spec/UrbanSound8k2.png" type="img/png"></td>
+            <td><img style=" width: 240px; height: 180px" src="imgs/HSJA/spec/UrbanSound8k2.png" type="img/png"></td>
+            <td><img style=" width: 240px; height: 180px" src="imgs/QEBA/spec/UrbanSound8k2.png" type="img/png"></td>
+        </tr>
+        <tr>
+          <td><h4 style="width: 240px; height: 50px; text-align:center; line-height: 50px">Mel-Spectrogram</h4></td>
+          <td><img style=" width: 240px; height: 180px" src="imgs/origin/mel/UrbanSound8k1.png" type="img/png"></td>
+          <td><img style=" width: 240px; height: 180px" src="imgs/mine/mel/UrbanSound8k1.png" type="img/png"></td>
+            <td><img style=" width: 240px; height: 180px" src="imgs/HSJA/mel/UrbanSound8k1.png" type="img/png"></td>
+            <td><img style=" width: 240px; height: 180px" src="imgs/QEBA/mel/UrbanSound8k1.png" type="img/png"></td>
+            <td><img style=" width: 240px; height: 180px" src="imgs/origin/mel/UrbanSound8k2.png" type="img/png"></td>
+            <td><img style=" width: 240px; height: 180px" src="imgs/mine/mel/UrbanSound8k2.png" type="img/png"></td>
+            <td><img style=" width: 240px; height: 180px" src="imgs/HSJA/mel/UrbanSound8k2.png" type="img/png"></td>
+            <td><img style=" width: 240px; height: 180px" src="imgs/QEBA/mel/UrbanSound8k2.png" type="img/png"></td>
+        </tr>
+      <tr>
+          <td><h4 style="width: 240px; height: 50px; text-align:center; line-height: 50px">Lofar-Spectrogram</h4></td>
+          <td><img style=" width: 240px; height: 180px" src="imgs/origin/lofar/UrbanSound8k1.png" type="img/png"></td>
+          <td><img style=" width: 240px; height: 180px" src="imgs/mine/lofar/UrbanSound8k1.png" type="img/png"></td>
+            <td><img style=" width: 240px; height: 180px" src="imgs/HSJA/lofar/UrbanSound8k1.png" type="img/png"></td>
+            <td><img style=" width: 240px; height: 180px" src="imgs/QEBA/lofar/UrbanSound8k1.png" type="img/png"></td>
+            <td><img style=" width: 240px; height: 180px" src="imgs/origin/lofar/UrbanSound8k2.png" type="img/png"></td>
+            <td><img style=" width: 240px; height: 180px" src="imgs/mine/lofar/UrbanSound8k2.png" type="img/png"></td>
+            <td><img style=" width: 240px; height: 180px" src="imgs/HSJA/lofar/UrbanSound8k2.png" type="img/png"></td>
+            <td><img style=" width: 240px; height: 180px" src="imgs/QEBA/lofar/UrbanSound8k2.png" type="img/png"></td>
+        </tr>
+
+      </tbody>
+    </table>
+
+
+    <br> </br>
+     <table class="mytable2">
+      <thead>
+        <tr>
+          <th align="middle" style="text-align: center">Whale</th>
+        </tr>
+      </thead>
+    </table>
+
+    <br> </br>
+  <table class="mytable">
+      <thead>
+        <tr>
+          <th align="middle">modal </th>
+          <th align="middle">Original 1</th>
+          <th align="middle">Our Method</th>
+            <th align="middle">HSJA</th>
+            <th align="middle">QEBA</th>
+          <th align="middle">Original 2</th>
+          <th align="middle">Our Method</th>
+            <th align="middle">HSJA</th>
+            <th align="middle">QEBA</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td><h4 style="width: 240px; height: 50px; text-align:center; line-height: 50px"> Audio</h4></td>
+          <td><audio controls style="width: 240px; height: 50px" ><source src="audio/origin/Whale/whale1.wav" type="audio/wav"></audio></td>
+          <td><audio controls style="width: 240px; height: 50px"><source src="audio/mine/Whale1.wav" type="audio/wav"></audio></td>
+            <td><audio controls style="width: 240px; height: 50px"><source src="audio/HSJA/Whale1.wav" type="audio/wav"></audio></td>
+            <td><audio controls style="width: 240px; height: 50px"><source src="audio/QEBA/Whale1.wav" type="audio/wav"></audio></td>
+          <td><audio controls style="width: 240px; height: 50px" ><source src="audio/origin/Whale/whale2.wav" type="audio/wav"></audio></td>
+            <td><audio controls style="width: 240px; height: 50px"><source src="audio/mine/whale2.wav" type="audio/wav"></audio></td>
+            <td><audio controls style="width: 240px; height: 50px"><source src="audio/HSJA/whale2.wav" type="audio/wav"></audio></td>
+            <td><audio controls style="width: 240px; height: 50px"><source src="audio/QEBA/whale2.wav" type="audio/wav"></audio></td>
+        </tr>
+        <tr>
+          <td><h4 style="width: 240px; height: 50px; text-align:center; line-height: 50px">Spectrogram</h4></td>
+          <td><img style=" width: 240px; height: 180px" src="imgs/origin/spec/Whale1.png" type="img/png"></td>
+          <td><img style=" width: 240px; height: 180px" src="imgs/mine/spec/Whale1.png" type="img/png"></td>
+            <td><img style=" width: 240px; height: 180px" src="imgs/HSJA/spec/Whale1.png" type="img/png"></td>
+            <td><img style=" width: 240px; height: 180px" src="imgs/QEBA/spec/Whale1.png" type="img/png"></td>
+            <td><img style=" width: 240px; height: 180px" src="imgs/origin/spec/whale2.png" type="img/png"></td>
+            <td><img style=" width: 240px; height: 180px" src="imgs/mine/spec/whale2.png" type="img/png"></td>
+            <td><img style=" width: 240px; height: 180px" src="imgs/HSJA/spec/whale2.png" type="img/png"></td>
+            <td><img style=" width: 240px; height: 180px" src="imgs/QEBA/spec/whale2.png" type="img/png"></td>
+        </tr>
+        <tr>
+          <td><h4 style="width: 240px; height: 50px; text-align:center; line-height: 50px">Mel-Spectrogram</h4></td>
+          <td><img style=" width: 240px; height: 180px" src="imgs/origin/mel/Whale1.png" type="img/png"></td>
+          <td><img style=" width: 240px; height: 180px" src="imgs/mine/mel/Whale1.png" type="img/png"></td>
+            <td><img style=" width: 240px; height: 180px" src="imgs/HSJA/mel/Whale1.png" type="img/png"></td>
+            <td><img style=" width: 240px; height: 180px" src="imgs/QEBA/mel/Whale1.png" type="img/png"></td>
+            <td><img style=" width: 240px; height: 180px" src="imgs/origin/mel/whale2.png" type="img/png"></td>
+            <td><img style=" width: 240px; height: 180px" src="imgs/mine/mel/whale2.png" type="img/png"></td>
+            <td><img style=" width: 240px; height: 180px" src="imgs/HSJA/mel/whale2.png" type="img/png"></td>
+            <td><img style=" width: 240px; height: 180px" src="imgs/QEBA/mel/whale2.png" type="img/png"></td>
+        </tr>
+      <tr>
+          <td><h4 style="width: 240px; height: 50px; text-align:center; line-height: 50px">Lofar-Spectrogram</h4></td>
+          <td><img style=" width: 240px; height: 180px" src="imgs/origin/lofar/Whale1.png" type="img/png"></td>
+          <td><img style=" width: 240px; height: 180px" src="imgs/mine/lofar/Whale1.png" type="img/png"></td>
+            <td><img style=" width: 240px; height: 180px" src="imgs/HSJA/lofar/Whale1.png" type="img/png"></td>
+            <td><img style=" width: 240px; height: 180px" src="imgs/QEBA/lofar/Whale1.png" type="img/png"></td>
+            <td><img style=" width: 240px; height: 180px" src="imgs/origin/lofar/whale2.png" type="img/png"></td>
+            <td><img style=" width: 240px; height: 180px" src="imgs/mine/lofar/whale2.png" type="img/png"></td>
+            <td><img style=" width: 240px; height: 180px" src="imgs/HSJA/lofar/whale2.png" type="img/png"></td>
+            <td><img style=" width: 240px; height: 180px" src="imgs/QEBA/lofar/whale2.png" type="img/png"></td>
+        </tr>
+
+      </tbody>
+    </table>
+
 
   </body>
 
